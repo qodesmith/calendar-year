@@ -74,3 +74,14 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+@media print {
+  .container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  header {
+    display: none;
+  }
+}
